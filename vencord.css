@@ -19,26 +19,58 @@
   }
 }
 /*! ClearVision - Vencord Addon v7.0.1 by ClearVision Team */
-.visual-refresh .vc-settings-quickActions-pill {
+.vc-btn-primary {
+  background: var(--hsl-main-color);
+  border-color: transparent;
+  border-radius: 4px;
+}
+.vc-btn-primary:hover {
+  background: var(--hsl-hover-color);
+  border-color: transparent;
+}
+
+.vc-switch-container {
+  background: hsl(from var(--interactive-normal) h s l/0.2) !important;
+}
+.vc-switch-container.vc-switch-checked {
+  background: var(--hsl-main-color) !important;
+}
+.vc-switch-container.vc-switch-checked path {
+  fill: var(--hsl-main-color);
+}
+
+.vc-card-base {
   background: var(--hsl-card-shading);
   border: 1px solid transparent;
 }
-.visual-refresh .vc-settings-quickActions-pill:hover {
+
+.vc-plugin-ui-elements-button:hover {
+  background: var(--hsl-card-shading);
+  border: 1px solid var(--hsl-main-color);
+}
+
+.vc-settings-quickActions-pill {
+  background: var(--hsl-card-shading);
+  border: 1px solid transparent;
+}
+.vc-settings-quickActions-pill:hover {
   background: var(--hsl-card-shading);
   box-shadow: none;
   border-color: var(--hsl-main-color);
   transform: none;
 }
-.visual-refresh .vc-addon-card {
+
+.vc-addon-card {
   background: var(--hsl-card-shading);
   border: none;
 }
-.visual-refresh .vc-addon-card:hover {
+.vc-addon-card:hover {
   background: var(--hsl-card-shading);
   transform: none;
   box-shadow: none;
 }
-.visual-refresh .vc-notification-root {
+
+.vc-notification-root {
   background: var(--hsl-popout-shading);
 }
 
