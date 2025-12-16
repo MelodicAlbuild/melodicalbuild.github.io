@@ -30,7 +30,7 @@
 }
 
 .vc-switch-container {
-  background: hsl(from var(--interactive-normal) h s l/0.2) !important;
+  background: hsl(from var(--interactive-text-default) h s l/0.2) !important;
 }
 .vc-switch-container.vc-switch-checked {
   background: var(--hsl-main-color) !important;

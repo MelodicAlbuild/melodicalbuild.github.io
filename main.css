@@ -231,9 +231,6 @@
   fill: var(--interactive-text-active);
 }
 
-.radioIndicatorChecked__88a69 {
-  color: var(--interactive-active);
-}
 .radioIndicatorChecked__88a69 .refreshIconFill__88a69 {
   fill: none;
 }
@@ -286,7 +283,7 @@
 }
 
 :is(.topPill_aa8da2, .side_aa8da2) .themed_aa8da2.item_aa8da2:hover:not(.disabled_aa8da2) {
-  background-color: var(--background-modifier-hover);
+  background-color: var(--background-mod-subtle);
 }
 :is(.topPill_aa8da2, .side_aa8da2) .themed_aa8da2.item_aa8da2.selected_aa8da2 {
   background-color: var(--hsl-main-color);
@@ -337,7 +334,7 @@
 
 /*! ClearVision v7.0.1 by ClearVision Team */
 .pageButton_c15210:hover {
-  background: var(--background-modifier-hover);
+  background: var(--background-mod-subtle);
 }
 
 .activeButton_c15210, .activeButton_c15210:hover {
@@ -492,7 +489,7 @@ code {
 .numberBadge__2b1f5,
 .textBadge__2b1f5 {
   background: var(--hsl-main-color) !important;
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 
 /*! ClearVision v7.0.1 by ClearVision Team */
@@ -689,7 +686,7 @@ code {
   content: "";
   height: 1px;
   flex-grow: 1;
-  background: var(--background-modifier-hover);
+  background: var(--background-mod-subtle);
 }
 .content__908e2::before {
   margin-right: 10px;
@@ -711,7 +708,7 @@ code {
 
 .botTagRegular__82f07 {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 
 .operations_bab751 a {
@@ -1069,7 +1066,7 @@ code {
 }
 
 .icon__7e6bb path {
-  fill: var(--header-primary);
+  fill: var(--interactive-icon-active);
 }
 
 .container__34c2c {
@@ -1087,7 +1084,7 @@ code {
 
 .icon__93db4 {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--interactive-icon-active);
 }
 
 .cta__93db4 {
@@ -1125,7 +1122,7 @@ code {
 }
 
 .icon__54b20 path {
-  fill: var(--header-primary);
+  fill: var(--interactive-icon-active);
 }
 
 .chatHeaderBar_a5700d {
@@ -1356,7 +1353,7 @@ code {
   right: 0;
   bottom: 0;
   left: -8px;
-  background: linear-gradient(to right, var(--background-modifier-hover) 90%, transparent);
+  background: linear-gradient(to right, var(--background-mod-subtle) 90%, transparent);
   border-radius: 4px;
   opacity: 0;
   transition: all 0.15s ease-in-out;
@@ -1550,7 +1547,7 @@ code {
 
 .iconBackground__33980 {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--interactive-icon-active);
 }
 
 .selectionBox_b13085 {
@@ -1605,7 +1602,7 @@ code {
   background: var(--hsl-main-color);
 }
 .uploadDropModal_b78547 .inner_b78547 {
-  border-color: var(--header-primary);
+  border-color: var(--text-strong);
 }
 
 /*! ClearVision v7.0.1 by ClearVision Team */
@@ -1927,15 +1924,15 @@ code {
 
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
   background-color: transparent;
-  color: var(--text-secondary);
+  color: var(--text-subtle);
   border: none;
 }
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:hover {
-  background-color: var(--background-modifier-hover);
+  background-color: var(--background-mod-subtle);
 }
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf[aria-selected=true] {
   background-color: var(--hsl-main-color);
-  color: var(--text-primary);
+  color: var(--text-strong);
 }
 
 .addFriendInputWrapper__72ba7 {
@@ -2229,7 +2226,7 @@ code {
 
 .contentTitle__13533 {
   padding: 4px 8px;
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 
 .wrapper_b1e4f3 {
@@ -2319,7 +2316,7 @@ code {
 
 .icon_d404a3 {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--interactive-icon-active);
 }
 
 .jumpButton_ed0c8c {
@@ -2379,6 +2376,9 @@ code {
 .colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
   background-color: var(--hsl-main-color);
 }
+.colorDefault_c1e9c4:active .label_c1e9c4 {
+  color: var(--interactive-text-active);
+}
 
 .colorDanger_c1e9c4.focused_c1e9c4 {
   background-color: var(--hsl-danger-color);
@@ -2387,15 +2387,12 @@ code {
   fill: var(--interactive-text-active);
 }
 .colorDanger_c1e9c4:active:not(.hideInteraction_c1e9c4) {
-  background-color: hsl(from var(--hsl-danger-color) h s l/0.8);
-  color: var(--interactive-text-active);
-}
-.colorDanger_c1e9c4:active:not(.hideInteraction_c1e9c4) .label_c1e9c4 {
+  background-color: var(--hsl-danger-color);
   color: var(--interactive-text-active);
 }
 
 .item_c1e9c4.focused_c1e9c4 .label_c1e9c4 {
-  color: var(--header-primary);
+  color: var(--interactive-text-active);
 }
 
 .status_a423bd[style*="rgb(130, 131, 139)"] {
@@ -2471,7 +2468,7 @@ code {
   border-radius: 5px;
 }
 .navButton__08434:hover {
-  background: var(--background-modifier-hover);
+  background: var(--background-mod-subtle);
 }
 
 .navButtonActive__08434 {
@@ -2519,11 +2516,11 @@ code {
 }
 
 .emojiItem_fc7141.emojiItemSelected_fc7141 {
-  background: var(--background-modifier-hover);
+  background: var(--background-mod-subtle);
 }
 
 .stickerInspected_c6367b .inspectedIndicator_c6367b {
-  background: var(--background-modifier-hover);
+  background: var(--background-mod-subtle);
 }
 
 .categoryFadeBlurple_d02962 {
@@ -2619,7 +2616,7 @@ code {
   color: var(--hsl-main-color);
 }
 :is(.theme-light, .theme-dark) .calendarPicker_d27f17 .react-datepicker__day-name {
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 .calendarPicker_d27f17 .react-datepicker__month {
   border: 1px solid var(--hsl-main-color);
@@ -2657,7 +2654,7 @@ code {
 
 .icon__1b24f {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--interactive-icon-active);
 }
 
 .popout__76f04 {
@@ -3121,7 +3118,7 @@ code {
 }
 
 .item_caf372:hover {
-  background: var(--background-modifier-hover);
+  background: var(--background-mod-subtle);
 }
 .item_caf372.active_caf372 {
   background: var(--hsl-main-color);
@@ -3254,7 +3251,7 @@ code {
 
 .sessionIcon__803f2 {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 
 .connectContainer_c7f964,
@@ -3269,7 +3266,7 @@ code {
 }
 .accountButtonInner_c7f964:hover,
 .accountBtnInner__750de:hover {
-  background-color: var(--background-modifier-hover);
+  background-color: var(--background-mod-subtle);
   border-color: var(--hsl-main-color);
 }
 
@@ -3337,7 +3334,7 @@ code {
   background: transparent;
 }
 :is(.theme-light, .theme-dark) .bottomDivider__01014 {
-  border-bottom-color: var(--background-modifier-hover);
+  border-bottom-color: var(--background-mod-subtle);
 }
 :is(.theme-light, .theme-dark) .codeRedemptionRedirect_a706ba {
   background: var(--hsl-card-shading);
@@ -3414,7 +3411,7 @@ code {
 }
 
 :is(.theme-light, html:not(.theme-dark)) .game_cc46f0 {
-  box-shadow: 0 1px 0 0 var(--background-modifier-hover);
+  box-shadow: 0 1px 0 0 var(--background-mod-subtle);
 }
 
 .expandedContainer__9d98d,
@@ -3900,7 +3897,7 @@ code {
 /*! ClearVision v7.0.1 by ClearVision Team */
 .newChannel__599fa {
   background: var(--hsl-main-color) !important;
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 
 .sidebarList__5e434 {
@@ -3928,9 +3925,11 @@ code {
   border-color: var(--hsl-main-color);
 }
 
+.barText__7aaec,
 .unreadIcon__7aaec,
-.barText__7aaec {
-  color: var(--interactive-text-active) !important;
+.text__3b95d,
+.icon_edf32f {
+  color: var(--text-strong) !important;
 }
 
 .spineBorder__5b40b {
@@ -3973,7 +3972,7 @@ code {
   color: var(--hsl-channel-muted);
 }
 .wrapper__2ea32:hover .link__2ea32, .wrapper__2ea32.modeMuted__2ea32:hover .link__2ea32 {
-  background: var(--background-modifier-hover);
+  background: var(--background-mod-subtle);
 }
 .wrapper__2ea32:hover .name__2ea32,
 .wrapper__2ea32:hover .icon__2ea32, .wrapper__2ea32.modeMuted__2ea32:hover .name__2ea32,
@@ -4129,7 +4128,7 @@ code {
   border-radius: 4px;
 }
 .interactive__972a0:hover {
-  background: var(--background-modifier-hover);
+  background: var(--background-mod-subtle);
 }
 .interactive__972a0.interactiveSelected__972a0 {
   background-color: transparent;
@@ -4162,7 +4161,7 @@ code {
   --text-link: var(--hsl-main-color);
   --text-brand: var(--hsl-main-color);
   --text-feedback-positive: var(--hsl-success-color);
-  --text-danger: var(--hsl-danger-color);
+  --text-feedback-critical: var(--hsl-danger-color);
   --hsl-background-shading: hsl(from var(--background-shading) h calc(var(--saturation-factor, 1) * s) l/alpha);
   --hsl-card-shading: hsl(from var(--card-shading) h calc(var(--saturation-factor, 1) * s) l/alpha);
   --hsl-popout-shading: hsl(from var(--popout-shading) h calc(var(--saturation-factor, 1) * s) l/alpha);
